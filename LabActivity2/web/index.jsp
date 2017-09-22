@@ -5,13 +5,17 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta charset="ISO-8859-1">  
+<title>User Management System</title>  
+</head>  
+<body>  
+  
+<h1>Please click what you want to do:</h1>  
+<a href="">Click here to login</a><br>  
+<a href="">Click here to logout</a><br>    
+  
+</body>  
+</html>  
