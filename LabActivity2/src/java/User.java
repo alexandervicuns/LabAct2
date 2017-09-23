@@ -1,17 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author Bacon
- */
-public class userObject 
+public class User 
 {
 
-    public userObject(int id, String userName, String firstName, String lastName, String password, String userType) {
+    public User(int id, String userName, String firstName, String lastName, String password, String userType) {
         this.id = id;
         this.userName = userName;
         this.firstName = firstName;

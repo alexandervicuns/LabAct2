@@ -1,11 +1,7 @@
 import java.sql.*;
 import java.util.*;
-/**
- *
- * @author Bacon
- */
-public class dbUtil 
 
+public class dbUtil 
 {
     
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
@@ -21,7 +17,7 @@ public class dbUtil
         {
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
         conn = DriverManager.getConnection(DB_URL,USER,PASS);
-        
+            System.out.println("################Connection Successfully made!###########################");
         }catch(SQLException se){
                  se.printStackTrace();
                 }catch(Exception e){
