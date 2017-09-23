@@ -24,6 +24,9 @@ public class dbServlet extends HttpServlet {
                 case "login": System.out.println("#########Login Successful! #######"); break;
                 
                 case "view":    System.out.println("#######View all users!######"); 
+                                request.setAttribute("view", da.viewUsers());
+                                request.getRequestDispatcher("listUsers.jsp").forward(request, response);
+                                break;
                                 
                 
                 default: request.getRequestDispatcher("index.jsp").forward(request,response);

@@ -16,6 +16,11 @@
 <h1>Please click what you want to do:</h1>  
 <a href="">Click here to login</a><br>  
 <a href="">Click here to logout</a><br>    
+
+<form method="GET" action="dbServlet?action=view" >
+            <input type='submit' />
+            
+        </form>
   
 </body>  
 </html>  
